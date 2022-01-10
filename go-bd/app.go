@@ -30,7 +30,7 @@ func main() {
 	e.Renderer = renderer
 	e.GET("/", func(c echo.Context) error {
 		return c.Render(http.StatusOK, "birthdateForm.html", map[string]interface{}{
-			"name": "Dolly!",
+			"name": "Ehsan!",
 		})
 	}).Name = "studentName"
 
